@@ -5,7 +5,7 @@ import random
 t = turtle.Turtle()
 t.penup()
 turtle.colormode(255)
-
+t.speed("fastest")
 colors = colorgram.extract('hirst.jpg', 20)
 rgbcolors = []
 for color in colors:
